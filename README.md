@@ -22,8 +22,19 @@
 
 	 高可用的服务注册中心
 
-	  断路器监控(Hystrix Dashboard)
+	断路器监控(Hystrix Dashboard)
 
-	  断路器聚合监控(Hystrix Turbine)
+	断路器聚合监控(Hystrix Turbine)
 
-	  Spring Cloud Gateway
+	Spring Cloud Gateway
+	
+	
+	Hystrix 替换为 Resilience4j
+    
+    Hystrix Dashboard / Turbine替换为Micrometer + Monitoring System
+    
+    Ribbon替换为Spring Cloud Loadbalancer
+    
+    Zuul 1替换为Spring Cloud Gateway
+    
+    Archaius 1替换为Spring Boot external config + Spring Cloud Config
