@@ -167,6 +167,8 @@
         <module>microservicecloud-eureka02</module>
         <module>microservicecloud-eureka03</module>
         <module>microservicecloud-service-8001</module>
+        <module>microservicecloud-service-8002</module>
+        <module>microservicecloud-service-hystrix-8003</module>
     </modules>
 
 </project>
