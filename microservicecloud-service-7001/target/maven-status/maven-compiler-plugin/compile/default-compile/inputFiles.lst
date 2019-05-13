@@ -1,5 +1,5 @@
-D:\code\demo\spring-cloud\microservicecloud-service-8001\src\main\java\com\wcw\springcloud\controller\DeptController.java
-D:\code\demo\spring-cloud\microservicecloud-service-8001\src\main\java\com\wcw\springcloud\service\impl\DeptServiceImpl.java
-D:\code\demo\spring-cloud\microservicecloud-service-8001\src\main\java\com\wcw\springcloud\dao\DeptDao.java
-D:\code\demo\spring-cloud\microservicecloud-service-8001\src\main\java\com\wcw\springcloud\ServiceProvider8001_App.java
-D:\code\demo\spring-cloud\microservicecloud-service-8001\src\main\java\com\wcw\springcloud\service\DeptService.java
+D:\code\demo\spring-cloud\microservicecloud-service-7001\src\main\java\com\wcw\springcloud\controller\DeptController.java
+D:\code\demo\spring-cloud\microservicecloud-service-7001\src\main\java\com\wcw\springcloud\ServiceProvider7001_App.java
+D:\code\demo\spring-cloud\microservicecloud-service-7001\src\main\java\com\wcw\springcloud\service\DeptService.java
+D:\code\demo\spring-cloud\microservicecloud-service-7001\src\main\java\com\wcw\springcloud\dao\DeptDao.java
+D:\code\demo\spring-cloud\microservicecloud-service-7001\src\main\java\com\wcw\springcloud\service\impl\DeptServiceImpl.java

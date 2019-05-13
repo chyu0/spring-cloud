@@ -1,5 +1,5 @@
 com\wcw\springcloud\service\DeptService.class
-com\wcw\springcloud\ServiceProvider8001_App.class
 com\wcw\springcloud\controller\DeptController.class
 com\wcw\springcloud\service\impl\DeptServiceImpl.class
+com\wcw\springcloud\ServiceProvider7001_App.class
 com\wcw\springcloud\dao\DeptDao.class
