@@ -6,14 +6,14 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: luoboyu_route
-          uri: http://www.jd.com/
-          predicates:
-            - Path=/jd
-        - id: query_route
-          uri: http://www.tuhu.cn
-          predicates:
-          - Query=method
+#        - id: luoboyu_route
+#          uri: http://www.jd.com/
+#          predicates:
+#            - Path=/jd
+#        - id: query_route
+#          uri: http://www.tuhu.cn
+#          predicates:
+#          - Query=method
   main:
     allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
 logging:
