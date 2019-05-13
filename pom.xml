@@ -29,6 +29,7 @@
         <spring-cloud-starter-ribbon.version>1.4.6.RELEASE</spring-cloud-starter-ribbon.version>
         <elastic-job.version>2.1.5</elastic-job.version>
         <curator.version>2.12.0</curator.version>
+        <netflix.eureka.version>2.1.1.RELEASE</netflix.eureka.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -38,6 +39,27 @@
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-eureka</artifactId>
+                <version>${spring-cloud-starter-eureka-server.version}</version>
+
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-eureka-server</artifactId>
+                <version>${spring-cloud-starter-eureka-server.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+                <version>${netflix.eureka.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-netflix-eureka-server</artifactId>
+                <version>${netflix.eureka.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.zookeeper</groupId>
@@ -136,6 +158,7 @@
         <module>microservicecloud-elasticjob</module>
         <module>microservicecloud-rabbitmq</module>
         <module>microservicecloud-gateway</module>
+        <module>microservicecloud-admin</module>
     </modules>
 
 </project>
